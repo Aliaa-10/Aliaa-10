@@ -5,7 +5,7 @@ class CanvasKeyboard{
         const config = this.getConfig( lang );
         config.panelSize = { width, height: width * 0.5 };
         config.height = 256;
-        config.body = { backgroundColor: "#555" };
+        config.body = { backgroundColor: "##336699" };
         config.renderer = renderer;
         const content = this.getContent( lang );
         this.keyboard = new CanvasUI( content, config );
