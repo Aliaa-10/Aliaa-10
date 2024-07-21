@@ -14,9 +14,9 @@ class LoadingBar{
 		this.domElement.style.zIndex = '1111';
 		const barBase = document.createElement("div");
 		barBase.style.background = '#aaa';
-		barBase.style.width = '50%';
-		barBase.style.minWidth = '250px';
-		barBase.style.borderRadius = '10px';
+		barBase.style.width = '40%';
+		barBase.style.minWidth = '270px';
+		barBase.style.borderRadius = '15px';
 		barBase.style.height = '15px';
 		this.domElement.appendChild(barBase);
 		const bar = document.createElement("div");
