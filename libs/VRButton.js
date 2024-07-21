@@ -23,7 +23,7 @@ class VRButton{
 
 			const button = document.createElement( 'button' );
 			button.style.display = 'none';
-            button.style.height = '40px';
+            button.style.height = '60px';
             
 			navigator.xr.isSessionSupported( this.sessionMode ).then( ( supported ) => {
 
